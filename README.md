@@ -3,8 +3,8 @@
 A practice flutter project which shows your current location's weather taking data from OpenWeatherAPI. It also have feature to search for a city name world wide and get weather report.
 
 ## Getting Started
-![Screenshot_20260107_170216](https://github.com/user-attachments/assets/4329b0b6-9b6f-4531-aab4-a75aed00bc22)
-![Screenshot_20260107_170226](https://github.com/user-attachments/assets/58fd85b6-d72b-4751-a151-b4fb5e8a7452)
+<img width="300" height="841" alt="image" src="https://github.com/user-attachments/assets/4329b0b6-9b6f-4531-aab4-a75aed00bc22" />
+<img width="300" height="840" alt="image" src="https://github.com/user-attachments/assets/58fd85b6-d72b-4751-a151-b4fb5e8a7452" />
 
 
 This project is a starting point for a Flutter application.
