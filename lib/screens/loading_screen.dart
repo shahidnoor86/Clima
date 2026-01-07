@@ -1,3 +1,4 @@
+import 'package:clima/screens/error_screen.dart';
 import 'package:clima/screens/weather_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:clima/services/location.dart';
@@ -31,6 +32,15 @@ class _LoadingScreenState extends State<LoadingScreen> {
         MaterialPageRoute(
           builder: (context) {
             return WeatherScreen(locationWeather: weatherData);
+          },
+        ),
+      );
+    } else {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (ctx) {
+            return ErrorScreen();
           },
         ),
       );

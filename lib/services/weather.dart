@@ -20,6 +20,10 @@ class WeatherModel {
     print("Latitude: ${location.latitude}");
     print("Longitude: ${location.longitude}");
 
+    if (location.latitude == null) {
+      return null;
+    }
+
     NetworkHelper networkHelper = NetworkHelper(
       '$openWeatherMapURL?lat=${location.latitude}&lon=${location.longitude}&appid=$apiKey&units=metric',
     );
